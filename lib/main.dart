@@ -3,6 +3,7 @@ import 'package:tani_application/constant.dart';
 
 import 'screen/bagian-sedang-ditanam/sedang_ditanam.dart';
 import 'screen/bagian-tanam-baru/tanam_baru_page.dart';
+import 'screen/home_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
           theme: ThemeData(
             primarySwatch: Colors.green,
           ),
-          home: TanamBaruPage(),
+          home: HomePage(),
         );
       });
     });
